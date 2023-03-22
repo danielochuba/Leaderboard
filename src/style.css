@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  padding-top: 40px;
+}
+
+.title {
+  margin-left: 9%;
+}
+
+table {
+  margin-top: 10px;
+  border: 1px solid black;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  width: 80%;
+  column-gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section-1 {
+  min-width: 32%;
+}
+
+.section-2 {
+  width: 30%;
+}
+
+.recent-scores {
+  display: inline;
+  font-size: 1 rem;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(217, 217, 217);
+}
+
+.input-description {
+  margin: 0 0 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-btn {
+  width: 60px;
+  position: absolute;
+  top: 38%;
+  right: 35%;
+}
+
+.refresh-btn,
+.add-btn {
+  box-shadow: 4px 3px 1px #454545;
+}
+
+.refresh-btn {
+  position: absolute;
+  left: 35%;
+}
+
+input {
+  height: 28px;
+}

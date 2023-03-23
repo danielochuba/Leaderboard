@@ -11,26 +11,33 @@ body {
   margin-left: 9%;
 }
 
-table {
+ul {
   margin-top: 10px;
   border: 1px solid black;
-  width: 100%;
+  width: 85%;
+  overflow: hidden;
+}
+
+li {
+  list-style-type: none;
+  margin-left: -7%;
+  padding: 3px 0 3px 9px;
 }
 
 .container {
   display: flex;
-  width: 80%;
+  width: 100%;
   column-gap: 20px;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .section-1 {
-  min-width: 32%;
+  width: 50%;
 }
 
 .section-2 {
-  width: 30%;
+  width: 40%;
 }
 
 .recent-scores {
@@ -38,7 +45,7 @@ table {
   font-size: 1 rem;
 }
 
-tr:nth-child(even) {
+li:nth-child(even) {
   background-color: rgb(217, 217, 217);
 }
 
@@ -55,7 +62,7 @@ form {
   width: 60px;
   position: absolute;
   top: 38%;
-  right: 35%;
+  right: 5%;
 }
 
 .refresh-btn,

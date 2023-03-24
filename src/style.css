@@ -1,10 +1,12 @@
 * {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  color: #fff;
 }
 
 body {
   padding-top: 40px;
+  background-color: rgb(158, 142, 195);
 }
 
 .title {
@@ -12,10 +14,12 @@ body {
 }
 
 ul {
-  margin-top: 10px;
+  margin-top: 16px;
   border: 1px solid black;
   width: 85%;
-  overflow: hidden;
+  height: 70vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 li {
@@ -59,15 +63,15 @@ form {
 }
 
 .add-btn {
-  width: 60px;
+  width: 80px;
   position: absolute;
   top: 38%;
-  right: 5%;
+  right: 12.5%;
 }
 
 .refresh-btn,
 .add-btn {
-  box-shadow: 4px 3px 1px #454545;
+  box-shadow: 4px 3px 1px #c9701e;
 }
 
 .refresh-btn {
